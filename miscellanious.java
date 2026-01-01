@@ -9,5 +9,7 @@ public class miscellanious {
             a++;
             b++;
         }
+
+        System.out.printf("i hate niggers oh and also %d, %d, %d \n", a, b, c);
     }
 }
