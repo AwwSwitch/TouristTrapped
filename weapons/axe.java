@@ -11,7 +11,11 @@ public class axe {
         this.attackspeed = attackspeed;
     }
 
-    void display_stats(){
+    public void display_stats(){
         System.out.printf("cur damage is %.2f, durability is %.2f, attackspeed is %.2f", damage, durability, attackspeed);
+    }
+
+    public double get_damage(){
+        return damage;
     }
 }
